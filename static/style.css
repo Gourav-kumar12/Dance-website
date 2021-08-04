@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+ *{
+     padding: 0;
+     margin: 0;
+    font-family: 'Creepster', cursive;
+ }
+ #navbar{ 
+         background-color: #ce3939; 
+        display: flex; 
+        padding: 12px;
+} 
+ #navbar ul{ 
+         display: flex; 
+        flex-direction: row; 
+         justify-content: center; 
+        align-items: center; 
+} 
+ #navbar li{ 
+         list-style: none; 
+         font-size: 32px;
+         padding: 18px;
+} 
+ #navbar li a{  
+        text-decoration: none; 
+        padding: 13px 20px; 
+        color: white;
+        font-size: 38px;
+} 
+ #navbar li a:hover{ 
+         color: black;   
+} 
+ #introSection{ 
+         color: white; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        font-family: 'ZCOOL QingKe HuangYou'; 
+        font-size: 65px; 
+        align-items: center; 
+        background: center/cover no-repeat url("https://cdn.pixabay.com/photo/2016/05/06/17/06/ballerinas-1376250_1280.jpg") ; 
+        height: 436px; 
+} 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+ #introSection div.small{ 
+         font-size: 52px; 
+        padding: 5px; 
+        font-family: 'Baloo 2', cursive;
+} 
+ #sponsorsSection{ 
+         height: 325px; 
+        background-color: #fbd6d6c7; 
+} 
+ #footer{ 
+         background-color: black; 
+        height: 100px; 
+} 
+ #missionSection{ 
+         height: 540px;;   
+        margin: auto; 
+        width: 100%;
+} 
+ #missionSection h2{ 
+         font-size: 42px; 
+        text-align: center; 
+        padding-top: 12px; 
+} 
+ .card{ 
+         border: 2px solid black; 
+        border-radius: 15px; 
+        width: 270px; 
+        height: 340px; 
+        margin: 22px;
+        display: inline-grid;
+        padding: 34px;
+        background-color: rgb(250, 224, 224);
+} 
+ .card h3{ 
+         text-align: center; 
+        margin: 10px; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 38px;
+} 
+p{
+    font-size: 28px;
+}
+ #logo{ 
+         display: flex; 
+        color: white; 
+        align-items: center; 
+        margin: 0 14px; 
+        font-size: 28px; 
+        margin-right: 40px; 
+} 
+ #logo img{ 
+         height: 80px; 
+        filter: invert(1); 
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 155px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+#loogo2{
+    display:flex;
+}
+#logo2 img{
+    display: inline-flex;
+    height: 140px;
+    padding: 12px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+h2{
+    font-size: 42px;
+    text-align: center;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+h4{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding: 12px;
+    word-spacing: 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
