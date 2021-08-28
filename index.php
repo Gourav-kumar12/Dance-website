@@ -1,4 +1,4 @@
 <?php
-include-once("index.pug");
+include_once("index.pug");
 
 ?>
